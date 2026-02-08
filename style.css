@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0fff4; /* jasna zieleń */
+  color: #1b3a1a; /* ciemniejsza zieleń */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2e8b57; /* zieleń lasu */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #d4f1c5; /* jasny zielony */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.kategoria {
+  background-color: #d4f1c5; /* jasny zielony dla sekcji */
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.kategoria h2 {
+  color: #2e8b57;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2e8b57;
+  color: white;
+}
